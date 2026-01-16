@@ -20,7 +20,7 @@ let overlayClicked = false;
 
 // Overlay muncul di detik tertentu
 video.addEventListener("timeupdate", () => {
-    if (video.currentTime >= 5 && !overlayClicked) {
+    if (video.currentTime >= 3 && !overlayClicked) {
         overlay.classList.add("show");
     }
 });
@@ -32,7 +32,8 @@ overlay.addEventListener("click", () => {
     overlay.classList.remove("show");
 
     // Aksi setelah klik
-    window.open("", "_blank");
+    window.open("https://s.shopee.co.id/50SqytNk0N", "_blank");
 });
+
 
 
